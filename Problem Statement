@@ -1,0 +1,13 @@
+A small engineering consulting firm has 3 senior designers available to work on the firm’s 4 current projects over the next 2 weeks. Each designer has 80 hours to split among the
+projects, and the following table shows the manager’s scoring (0 = nil to 100 = perfect ) of the capability of each designer to contribute to each project, along with his 
+estimate of the hours that each project will require.
+
+
+|      Designer     | Project 1    | Project 2    | Project 3    | Project 4    |
+|-------------------|--------------|--------------|--------------|--------------|
+| 1                 | 90           | 80           | 10           | 50           |
+| 2                 | 60           | 70           | 50           | 65           |
+| 3                 | 70           | 40           | 80           | 85           |
+| Required hours:   |70            | 50           | 85           | 35           |
+
+Formulate an allocation LP to choose an optimal work assignment and solve the model using pyomo.
